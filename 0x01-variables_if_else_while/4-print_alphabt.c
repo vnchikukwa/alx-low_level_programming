@@ -1,11 +1,11 @@
 #include <stdio.h>
 /**
- * main - Prints alphabet in lowercase,except for q and e
+ * main - Prints the alphabet in lowercase, except for q and e.
  *
  * Return: Always 0
  */
-in main (void)
-{
+int main(void)
+
 	char letter;
 	for (letter = 'a'; letter <= 'z'; letter++)
 	{
@@ -14,3 +14,4 @@ in main (void)
 	}
 	putchar('\n');
 	return (0);
+}
